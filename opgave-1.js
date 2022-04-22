@@ -11,6 +11,11 @@ function isPositief(getal) {
   var teruggeefWaarde = undefined;
 
   // vul hier aan:
+  if(getal >= 0){
+    teruggeefWaarde = true
+  } else {
+    teruggeefWaarde = false
+  }
   
 
   return teruggeefWaarde;
