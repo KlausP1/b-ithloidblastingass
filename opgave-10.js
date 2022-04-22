@@ -13,7 +13,12 @@ function aantalKeerA(woord) {
   var uitkomst = 0;
   
   // typ hier je code
-  
+  for(let i = 0; i <woord.length; i++){
+    letter = chasrAt(i)
+    if(letter == "a"){
+      uitkomst++
+    }
+  }
   
   
   

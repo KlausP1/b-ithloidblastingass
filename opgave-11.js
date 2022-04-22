@@ -13,8 +13,10 @@ module.exports = {isPalindroom}
 function isPalindroom(x) {
   var teruggeefWaarde = false;
 
-
-
+  let y = x.reverse
+  if(y == x){
+    teruggeefWaarde = true
+  }
 
   return teruggeefWaarde;
 }

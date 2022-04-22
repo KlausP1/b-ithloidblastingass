@@ -10,9 +10,10 @@ function alleCijfers() {
   var uitkomst = "";
     
   // maak voorwaarde van de for-loop juist en schrijf de juiste regel IN de for-loop
-  for (var teller = 0; teller < ___ ; teller++) {
+  for (var teller = 0; teller < 10 ; teller++) {
 
       //typ hieronder nog één regel code om de opdracht op te lossen 
+    uitkomst += teller
       
   }
   
